@@ -1,12 +1,14 @@
 #include <ESP8266WiFi.h>                   
  
-const char* ssid = "nombre-red";       
-const char* password = "****";  
+const char* ssid = "TP-Link_EF66";
+const char* password = "30994393";
   
 WiFiServer server(80);                   
  
 int PinLED = 02;                  
-int estado = LOW;                         
+int estado = LOW;                  
+
+
  
 void setup() {
   Serial.begin(9600);

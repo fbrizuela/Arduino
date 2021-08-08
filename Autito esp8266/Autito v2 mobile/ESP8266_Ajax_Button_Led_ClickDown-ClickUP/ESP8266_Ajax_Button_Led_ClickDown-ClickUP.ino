@@ -136,8 +136,12 @@ String html_4 = R"=====(
 #include <ESP8266WiFi.h>
  
 // change these values to match your network
-char ssid[] = "Telecentro-3090";       //  your network SSID (name)
-char pass[] = "QKKMIFZPJ7CX";          //  your network password
+//char ssid[] = "Telecentro-3090";       //  your network SSID (name)
+//char pass[] = "QKKMIFZPJ7CX";          //  your network password
+
+//wificredentials
+char ssid[] = "TP-Link_EF66";
+char pass[] = "30994393";
  
 WiFiServer server(80);
  
